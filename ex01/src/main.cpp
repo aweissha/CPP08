@@ -11,11 +11,11 @@
 /* ************************************************************************** */
 
 #include "../include/Span.hpp"
-
 #include <cstdlib>
 #include <ctime>
 
-int main() {
+int main()
+{
 	// Seed for random number generation
 	std::srand(std::time(nullptr));
 
@@ -98,6 +98,4 @@ int main() {
 	{
 		std::cerr << "Error: " << e.what() << std::endl;
 	}
-
-	return 0;
 }
